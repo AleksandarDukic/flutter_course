@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1091647982652",
+    "project_id": "flutter-course-kiki",
+    "storage_bucket": "flutter-course-kiki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091647982652:android:fda1d1e474dac1ebc48739",
+        "android_client_info": {
+          "package_name": "com.aleksandardukic.flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091647982652-rvuvf4shn90r2saur87ue7oaitp7jq3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBctqF10PTk6bMuM38P65_khfXhdrIaNTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091647982652-rvuvf4shn90r2saur87ue7oaitp7jq3p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1091647982652-6emoem905l88hcgi9ntbabloicnu8136.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aleksandardukic.flutterCourse"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
