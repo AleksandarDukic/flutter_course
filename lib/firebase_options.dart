@@ -63,7 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1091647982652',
     projectId: 'flutter-course-kiki',
     storageBucket: 'flutter-course-kiki.appspot.com',
-    iosClientId: '1091647982652-6emoem905l88hcgi9ntbabloicnu8136.apps.googleusercontent.com',
+    iosClientId:
+        '1091647982652-6emoem905l88hcgi9ntbabloicnu8136.apps.googleusercontent.com',
     iosBundleId: 'com.aleksandardukic.flutterCourse',
   );
 }
