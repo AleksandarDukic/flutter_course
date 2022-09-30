@@ -83,8 +83,9 @@ class _NotesViewState extends State<NotesView> {
                   devtools.log(shouldLogout.toString());
                   if (shouldLogout) {
                     await FirebaseAuth.instance.signOut();
+                    if (!mounted) return;
                     Navigator.of(context)
-                        .pushNamedAndRemoveUntil('/login/', (_) => false);
+                        .pushNamedAndRemoveUntil('/login', (_) => false);
                   }
                   break;
               }
