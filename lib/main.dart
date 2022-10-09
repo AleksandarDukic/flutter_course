@@ -61,3 +61,6 @@ class HomePage extends StatelessWidget {
         });
   }
 }
+
+
+// za testove: flutter pub add text --dev

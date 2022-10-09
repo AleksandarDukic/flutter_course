@@ -191,6 +191,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
+  lists:
+    dependency: transitive
+    description:
+      name: lists
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   matcher:
     dependency: transitive
     description:
@@ -273,6 +280,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.9"
+  text:
+    dependency: "direct dev"
+    description:
+      name: text
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   typed_data:
     dependency: transitive
     description:
