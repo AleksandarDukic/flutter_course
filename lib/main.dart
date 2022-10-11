@@ -62,5 +62,11 @@ class HomePage extends StatelessWidget {
   }
 }
 
+// Chapter 26
+//  - za testove: flutter pub add text --dev
 
-// za testove: flutter pub add text --dev
+// Chapter 27
+//  - instalirali DB Browser - obicna databaza na kompjuteru
+//  - flutter pub add sqflite
+//  - flutter pub add path_provider
+//  - flutter pub add path
