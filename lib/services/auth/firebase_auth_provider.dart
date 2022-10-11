@@ -48,6 +48,7 @@ class FirebaseAuthProvider implements AuthProvider {
   }
 
   @override
+  // ? - indicates that variable can be null
   AuthUser? get currentUser {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null) {
