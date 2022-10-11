@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter_course/services/crud/crud_exceptions.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' show join;
@@ -273,22 +274,3 @@ const createNotesTable = '''CREATE TABLE IF NOT EXISTS "notes" (
 	      PRIMARY KEY("id" AUTOINCREMENT),
 	      FOREIGN KEY("user_id") REFERENCES "user"("id")
       );''';
-
-// Exceptions
-class DatabaseAlreadyOpenException implements Exception {}
-
-class UnableTogetDocumentsDirectory implements Exception {}
-
-class DatabaseIsNotOpen implements Exception {}
-
-class CouldNotDeleteUser implements Exception {}
-
-class UserAlreadyExists implements Exception {}
-
-class CouldNotFindUser implements Exception {}
-
-class CouldNotDeleteNote implements Exception {}
-
-class CouldNotFindNote implements Exception {}
-
-class CouldNotUpdateNote implements Exception {}
